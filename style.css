@@ -1,0 +1,49 @@
+body{
+    background-color:lightgreen;
+}
+#Show_sketch{
+    float: right;
+    background-color: aqua;
+    color: black;
+    height:40;
+    width: 120;
+    border-radius: 5px;
+}
+#timer{
+    float:right;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#score{
+    float:left;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#Show_sketch:hover{
+    border: 3px solid black;
+}
+.model-body{
+    visibility: hidden;
+}
+p{
+    font-size: x-large;
+}
+canvas{
+    border:5px solid white;
+    border-radius: 20px;
+    animation-name:example;
+    animation-duration: 3s;
+    margin-top: 100px;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px white
+    orange
+    aqua
+    lightgreen
+    red}
+    to{box-shadow: 1px 1px 38px yellow;}
+}
+#myModal{
+    visibility: inherit;
+}
